@@ -1,5 +1,7 @@
 <?php
 
+require_once("reservacion.php");
+
 function handleReservacion() {
     $cr_file = 'reservacion.csv';
 

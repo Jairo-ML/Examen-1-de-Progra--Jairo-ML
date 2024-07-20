@@ -4,7 +4,8 @@
     <title>Reservación de hotel</title>
 </head>
 <body> 
-    <form method="POST" action="Guardadophp.php"> 
+<!-- NOTA: Le puse controlador por que no sabia que ponerle, pero podria llamarse controlador al ser algo que interactura con este front end y tu clase reserva. -->
+    <form method="POST" action="controlador.php"> 
         <label for="lugar">Seleccione el hotel:</label>
         <br><br>
         <select name="lugar" required>
@@ -40,7 +41,7 @@
         <br><br>
     </form>
     
-    <form method="POST" action="Guardadophp.php">
+    <form method="POST" action="controlador.php">
         <input type="submit" name="eliminar" value="Eliminar Reservaciones"/>
     </form>
 </body>
